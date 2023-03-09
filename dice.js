@@ -19,11 +19,11 @@ document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
 
 if(randomNumber1 > randomNumber2){
-    document.querySelector("h1").innerHTML = "Player-1 Won!";
+    document.querySelector("h2").innerHTML = "Player-1 Won!";
 }
 else if(randomNumber1 < randomNumber2){
-    document.querySelector("h1").innerHTML = "Player-2 Won!";
+    document.querySelector("h2").innerHTML = "Player-2 Won!";
 }
 else{
-    document.querySelector("h1").innerHTML = "It's a Tie";
+    document.querySelector("h2").innerHTML = "It's a Tie";
 }
